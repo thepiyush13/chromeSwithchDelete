@@ -69,7 +69,7 @@ function showTabListing(){
 }
 //init for tablist and search box
 function finalize(){
-		gTabList = $('#'+gTabListId).finderSelect({totalSelector:".tab-count",menuSelector:"#tab-menu",selectClass:'active'});
+		gTabList = $('#'+gTabListId).finderSelect({totalSelector:".tab-count",menuSelector:"#tab-menu",selectClass:'active',enableDesktopCtrlDefault:true});
 	 $('#'+gTabListId).btsListFilter('#searchinput', {itemChild: 'span'});
 	
 }
