@@ -1,50 +1,71 @@
 <!doctype html>
-<style type="text/css">
-	/*#mainPopup {
-		padding: 1px;
-		height: 200px;
-		width: 400px;
-		font-family: Helvetica, Ubuntu, Arial, sans-serif;
-	}
-	h1 {
-		font-size: 2em;
-	}*/
-	#status {
-        /* avoid an excessively wide status text */
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: none;
-        font-size: 1.3em;
-        /*max-width: 400px;*/
-      }
-      #tabList{
-      	list-style: none; /* Remove list bullets */
-    padding: 0;
-    margin: 0;
-      }
-      #tabList li{
-      	margin: 0;
-    padding: 0.2em;
-      }
-      #tools{
-      	    position: fixed;
-    width: 100%;
-    background: #FFFFFF;
-    margin: 0px;
-    padding: 0px;
-    top: 0px;
-    left: 0px;
-      }
-</style>
+<head>
+<!-- LOAD STYLESHEETS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+<!-- <link rel="stylesheet" href="/css/bootstrap-multiselect.css" type="text/css"> -->
+<link rel="stylesheet" href="/css/main.css" type="text/css">
+
+<!-- LOAD JAVASCRIPTS -->
+<script src="/js/jquery.min.js">  </script>
+<script src="/js/bootstrap.min.js">  </script>
+<script src="/js/jquery.finderselect.min.js">  </script>
+<script src="/js/bootstrap-list-filter.min.js">  </script>
 <script src="/js/popup.js">  </script>
-<div id="tools">
-<input type="checkbox" id="selectAll" /> Select All &nbsp;&nbsp;|&nbsp;&nbsp;
-<input type="button" id="delSelected" value="Delete Selected"/><br/>
+
+</head>
+<body>
+
+<!-- PANEL START  -->
+
+ <div class="content">
+  
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <h1 class="panel-title pull-left">
+<input id="searchinput" class="form-control" type="search" placeholder="Search..." />
+            </h1>
+
+        <input id="selectToggle" type="button" class="btn btn-default" aria-label="Help" value="Select All"/>
+      
+     &nbsp;&nbsp;
+
+    <button class="btn btn-danger pull-right" id="delSelected" data-loading-text="Closing..."  type="button">
+        Close <span class="badge tab-count"></span> Tabs
+
+      </button>
+        <div class="clearfix"></div>
+    
+      
+      
+      
+
+
+    
+
+    </div>
+   
+    <div id="tabContents">
+      <h3>Loading Tabs...</h3>
+    </div>
+     
+   </div>
+   <div class="panel-footer">Panel footer</div>
+</div> 
+
+<!-- PANEL END -->
+
+<!-- <div id="tools">
+<input type="button" id="selectAll" accesskey="e"  value="Select All" /><small>(Alt+Shift+A)</small>&nbsp;&nbsp;|&nbsp;&nbsp;
+<input type="button" accesskey="d" id="delSelected" value="Delete Selected"/><small>(Alt+Shift+D)</small><br/><b>TAB</b>: Goto Next tab&nbsp;|&nbsp;<b>SPACE</b>: Select a tab<br/>
 	<hr/>
 </div>
 <div id="status"></div>
-        <div id="status_text"></div>
+        <div id="status_text"></div> -->
+        <!-- Build your select: -->
+
 <!-- <div id="mainPopup">
 <h1>Hello extensionizr!</h1>
 <p>To shut this popup down, edit the manifest file and remove the "default popup" key. To edit it, just edit ext/browser_action/browser_action.html. The CSS is there, too.</p>
 </div> -->
+</body>
+</html>

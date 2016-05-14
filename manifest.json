@@ -1,9 +1,9 @@
 {
-  "name": "Switch&Delete : Switch & delete tabs quickly",
-  "version": "0.0.1",
+  "name": "LazyTabs : Tabs for lazy people",
+  "version": "0.0.3",
   "manifest_version": 2,
-  "description": "Quickly delete unwanted tabs by easily selecting and deleting them",
-  "homepage_url": "http://google.com",
+  "description": "Quickly select,delete and switch tabs",
+  "homepage_url": "https://chrome.google.com/webstore/detail/ifaekdppijdbehkegdlbpkicpkmlgabf/",
   "icons": {
     "16": "icons/logo16.png",
     "48": "icons/logo48.png",
@@ -18,17 +18,17 @@
   },
   "browser_action": {
     "default_icon": "icons/logo16.png",
-    "default_title": "Switch&DeleteSwitch&Delete",
+    "default_title": "LazyTabs",
     "default_popup": "src/browser_action/browser_action.html"
   },
   "commands": {
           
           "_execute_browser_action": {
             "suggested_key": {
-              "windows": "Alt+Shift+O",
+              "windows": "Alt+O",
               "mac": "Command+Shift+O",
               "chromeos": "Alt+Shift+O",
-              "linux": "Alt+Shift+O"
+              "linux": "Alt+O"
             }
           }
           

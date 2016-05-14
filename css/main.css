@@ -1,0 +1,49 @@
+/*#mainPopup {
+		padding: 1px;
+		height: 200px;
+		width: 400px;
+		font-family: Helvetica, Ubuntu, Arial, sans-serif;
+	}
+	h1 {
+		font-size: 2em;
+	}*/
+	#status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: none;
+        font-size: 1.3em;
+        /*max-width: 400px;*/
+      }
+     /* #tabList{
+      	list-style: none; 
+    padding: 0;
+    margin: 0;
+      }
+      #tabList li{
+      	margin: 0;
+    padding: 0.2em;
+      }*/
+      #tools{
+      	    position: fixed;
+    width: 100%;
+    background: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+      }
+
+      .content{
+        width:700px;
+      }
+      .un-selected{
+        background: white;
+      }
+      .tabFavicon{
+        width:24px;
+        height:24px;
+      }
+      #tabContents{
+        max-height: 400px;
+      }
