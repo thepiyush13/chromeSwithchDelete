@@ -1,5 +1,5 @@
 {
-  "name": "LazyTabs : Tabs for lazy people",
+  "name": "LazyTabs : Tab Manager for lazy people",
   "version": "0.1.0",
   "manifest_version": 2,
   "description": "Quickly select,delete and switch tabs",
