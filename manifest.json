@@ -1,6 +1,6 @@
 {
   "name": "LazyTabs : Tabs for lazy people",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "manifest_version": 2,
   "description": "Quickly select,delete and switch tabs",
   "homepage_url": "https://chrome.google.com/webstore/detail/ifaekdppijdbehkegdlbpkicpkmlgabf/",
@@ -26,8 +26,8 @@
           "_execute_browser_action": {
             "suggested_key": {
               "windows": "Alt+O",
-              "mac": "Command+Shift+O",
-              "chromeos": "Alt+Shift+O",
+              "mac": "Alt+O",
+              "chromeos": "Alt+O",
               "linux": "Alt+O"
             }
           }
