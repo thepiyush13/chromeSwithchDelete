@@ -1,6 +1,6 @@
 {
   "name": "LazyTabs : Tab Manager for lazy people",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 2,
   "description": "Quickly select,delete and switch tabs",
   "homepage_url": "https://chrome.google.com/webstore/detail/ifaekdppijdbehkegdlbpkicpkmlgabf/",
